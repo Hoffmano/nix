@@ -33,6 +33,13 @@
     defaultUserShell = pkgs.zsh;
   };
 
+  programs.hyprland = {
+    enable = true;
+    xwayland.enable = true;
+  };
+
+  xdg.portal.enable = true;
+
   programs.nixvim = {
     enable = true;
     defaultEditor = true;

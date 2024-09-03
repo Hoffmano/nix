@@ -19,6 +19,15 @@
     ];
   };
 
+  wayland.windowManager.hyprland = {
+    enable = true;
+    # Add your custom settings here
+    # Here's a good example: https://github.com/fufexan/dotfiles/blob/main/home/programs/wayland/hyprland/settings.nix
+    settings = {
+      "$mod" = "SUPER";
+    };
+  };
+
   programs.home-manager.enable = true;
   programs.zsh = {
     enable = true;
