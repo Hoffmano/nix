@@ -30,6 +30,7 @@
       enableZshIntegration = true; # see note on other shells below
       nix-direnv.enable = true;
     };
+    gh = { enable = true; };
     git = {
       enable = true;
       userName = "Hoffmano";
